@@ -1,0 +1,234 @@
+@media (min-width: 1200px) {
+  
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .container{
+    padding: 0 30px;
+  }
+  .service {
+    padding: 80px 0;
+    &__content {
+      display: flex;
+      column-gap: 75px;
+    }
+    &__title {
+      font-size: 38px;
+      line-height: 57px;
+    }
+    &__subtitle {
+      font-size: 13px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      color: #737373;
+      margin-bottom: 90px;
+    }
+    &__info {
+      width: 39.9%;
+      padding-top: 15px;
+    }
+    &__info-title {
+      font-size: 37px;
+      line-height: 53px;
+    }
+  }
+  .subscribe__input {
+    height: 58px;
+    width: 355px;
+  }
+  .contact__content {
+    padding: 0 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 921px) {
+.container{
+  padding: 0 20px;
+}
+  .first-screen{
+    padding-top: 160px;
+    &__title {
+      font-size: 50px;
+      line-height: 55px;
+    }
+    &__subtitle{
+      font-size: 19px;
+    }
+    &__btn_first {
+      width: 160px;
+    }
+    &__card {
+      padding: 19px 0 18px 37px;
+    }
+  }
+  .choose {
+    padding: 197px 0 58px;
+    &__title {
+      font-size: 37px;
+      line-height: 47px;
+    }
+  }
+  .practice {
+    padding: 100px 0 101px;
+    &__title {
+      font-size: 38px;
+      line-height: 50px;
+    }
+  }
+  .service {
+    padding: 88px 0;
+    &__title {
+      font-size: 38px;
+      line-height: 43px;
+    }
+    &__subtitle {
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 85px;
+    }
+    &__info {
+      width: 37.9%;
+      padding-top: 15px;
+      &-title {
+        font-size: 37px;
+        line-height: 52px;
+        margin-bottom: 12px;
+      }
+      &-item{
+          display: flex;
+          column-gap: 16px;
+          margin-top: 27px;
+        }
+    }
+  }
+  .subscribe {
+    padding-top: 45px;
+    padding-bottom: 16px;
+    &__block2 {
+      padding: 23px 21px;
+      margin-top: 70px;
+      margin-bottom: 20px;
+      border-radius: 2px;
+    }
+    &__title {
+      font-size: 22px;
+      line-height: 29px;
+    }
+    &__input {
+      height: 50px;
+      width: 264px;
+      padding-left: 20px;
+      font-size: 14px;
+      line-height: 28px;
+    }
+    &__btn {
+      height: 48px;
+      width: 99px;
+      font-size: 13px;
+      line-height: 28px;
+    }
+  }
+  .submit {
+    padding: 70px 0 125px;
+    &__title{
+      font-size: 37px;
+      line-height: 40px;
+    }
+    &__subtitle{
+      margin: 10px 0 95px;
+    }
+    &__card{
+      &-btn{
+        width: 152px;
+        height: 41px;
+      }
+    }
+    }
+  .contact__content {
+    padding: 0 20px;
+  }
+  .footer{
+    &__card{
+      &-title{
+        font-size: 14px;
+        line-height: 15px;
+      }
+      &-item{
+        font-size: 12px;
+        line-height: 21px;
+      }
+    }
+    &__navbar{
+      display: flex;
+      column-gap: 235px;
+    }
+  }
+  .row{
+    padding: 0 20px;
+  }
+
+}
+@media (max-width: 767px) {
+  .container{
+    padding: 0 20px;
+  }
+  .first-screen__title {
+    font-size: 46px;
+    line-height: 60px;
+    margin-bottom: 15px;
+  }
+  .first-screen__btn {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .first-screen__btn_second {
+    width: 147px;
+  }
+  .first-screen__btn_first {
+    width: 147px;
+  }
+  .first-screen__card-title {
+    margin: 10px 0 7px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .first-screen__card {
+    padding: 34px 0 35px 30px;
+  }
+  .choose {
+    padding: 160px 0 63px;
+    background: #FAFAFA;
+  }
+  .choose__title {
+    font-size: 38px;
+    line-height: 40px;
+  }
+  .choose__subtitle {
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 40px;
+  }
+  .choose__card {
+    padding: 20px 0;
+  }
+  .choose__card-title{
+    font-size: 18px;
+  }
+  .choose__card-subtitle{
+    font-size: 16px;
+  }
+  .practice {
+    padding: 95px 0 90px;
+  }
+  .practice__card-info {
+    padding: 17px 0 0 14px;
+  }
+  .practice__card{
+    height: 270px;
+  }
+}
+@media (max-width: 480px) {
+  
+}
+@media (max-width: 320px) {
+
+}

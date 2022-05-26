@@ -1,0 +1,54 @@
+.contact{
+  padding: 40px 0;
+  &__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__info{
+    &-title{
+      font-family: Montserrat sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0.1px;
+      color: #252B42;
+      margin-bottom: 10px;
+    }
+    &-subtitle{
+      font-family: Montserrat sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      color: #737373;
+
+    }
+  }
+  &__btn{
+    width: 160px;
+    height: 58px;
+    cursor: pointer;
+    background: #FFA62B;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    transition: .3s;
+    &:hover{
+      transition: .3s;
+      background-color: #252B42;
+      font-style: italic;
+      transform: scale(1.1);
+    }
+  }
+}
